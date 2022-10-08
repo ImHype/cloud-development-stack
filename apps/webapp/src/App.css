@@ -39,9 +39,7 @@
 .layout-basic-demo .arco-layout-header,
 .layout-basic-demo .arco-layout-footer,
 .layout-basic-demo .arco-layout-sider,
-.layout-basic-demo .arco-layout-sider-children,
-.layout-basic-demo .arco-layout-content {
-  color: var(--color-white);
+.layout-basic-demo .arco-layout-sider-children{
   text-align: center;
   font-stretch: condensed;
   font-size: 16px;
@@ -49,13 +47,24 @@
   flex-direction: column;
   justify-content: center;
 }
+.layout-basic-demo .arco-layout-header,
+.layout-basic-demo .arco-layout-footer,
+.layout-basic-demo .arco-layout-sider,
+.layout-basic-demo .arco-layout-sider-children,
+.layout-basic-demo .arco-layout-content {
+
+  width: 1024px;
+  margin: 0 auto
+}
+.layout-basic-demo .arco-layout-content {
+  padding-top: 20px;
+}
 
 .layout-basic-demo .arco-layout-header,
 .layout-basic-demo .arco-layout-footer {
   height: 64px;
   background-color: var(--color-white);
   color: #333;
-  border: 1px solid #ccc;
 }
 
 
