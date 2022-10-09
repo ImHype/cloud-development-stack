@@ -15,9 +15,10 @@ func main() {
 	r := gin.Default()
 	r.GET("/api/ping", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "pong",
+			"message": "Hello Air123",
 		})
 	})
+
 	r.GET("/api/apps", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
 			"data": []App{
