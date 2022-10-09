@@ -69,11 +69,11 @@
 
 
 .layout-basic-demo .arco-layout-header {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #eee;
 }
 
 .layout-basic-demo .arco-layout-footer {
-  border-top: 1px solid #333;
+  border-top: 1px solid #eee;
 }
 
 .layout-basic-demo .arco-layout-sider {
